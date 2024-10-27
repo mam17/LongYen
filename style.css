@@ -272,7 +272,8 @@ html {
 /* ========= AND ELEMENT ========== */
 
 .countdown-secton {
-  background-image: url("../img/anhcuoi/img_anhcuoi13.JPG");
+  background-image: url(https://mam17.github.io/LongYen/img/anhcuoi/img_anhcuoi13.JPG);
+  /* background-image: url("../img/anhcuoi/img_anhcuoi13.JPG"); */
 }
 /* ------------------------------------------------------------------------- */
 
@@ -926,7 +927,10 @@ body {
   display: grid;
   justify-content: center;
   padding: 120px 0;
-  background-image: url("../img/gif_tim3.gif");
+
+  /* background-image:url("./img/gif_tim3.gif"); */
+  background-image: url(https://mam17.github.io/LongYen/img/gif_tim3.gif);
+
   color: var(--text-white);
   z-index: 9;
 }
