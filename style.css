@@ -271,6 +271,9 @@ html {
 
 /* ========= AND ELEMENT ========== */
 
+.countdown-secton {
+  background-image: url("../img/anhcuoi/img_anhcuoi13.JPG");
+}
 /* ------------------------------------------------------------------------- */
 
 /* ========= LOCATION ========== */
@@ -322,29 +325,28 @@ html {
 
 .select-invitation {
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  text-align: center; 
+  text-align: center;
   background-image: linear-gradient(to top, var(--bg), #fff);
   padding: 80px;
   margin: 0 auto;
 }
 
 .section-heading {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .txt-invi {
   font-size: 0.8rem;
-  line-height: 1.2rem; 
+  line-height: 1.2rem;
 }
 
-.txt-family{
+.txt-family {
   font-size: 0.8rem;
   margin-top: 50px;
 }
-
 
 /* ------------------------------------------------------------------------- */
 
@@ -361,7 +363,7 @@ html {
   text-align: center;
 }
 
-.event-time{
+.event-time {
   margin: 0;
   font-size: 0.8rem;
 }
@@ -383,7 +385,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%; 
+  width: 100%;
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 8px;
@@ -483,7 +485,7 @@ html {
 }
 /* Điều chỉnh kích thước hình ảnh cho màn hình có chiều rộng nhỏ hơn 768px (thường là máy tính bảng hoặc điện thoại) */
 @media screen and (max-width: 768px) {
-  .select-invitation{
+  .select-invitation {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -505,7 +507,6 @@ html {
   .gift-image {
     width: 50%; /* Tăng kích thước hơn nữa trên điện thoại nhỏ */
   }
-  
 }
 
 .heartbeat {
@@ -817,7 +818,7 @@ body {
   bottom: 20%;
   right: 20%;
 }
-.container-name{
+.container-name {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -830,7 +831,7 @@ body {
   display: inline-block;
   vertical-align: middle;
 }
-.title-name{
+.title-name {
   font-size: 3rem;
   font-family: "damcuoifont2";
 }
@@ -925,7 +926,7 @@ body {
   display: grid;
   justify-content: center;
   padding: 120px 0;
-
+  background-image: url("../img/gif_tim3.gif");
   color: var(--text-white);
   z-index: 9;
 }
