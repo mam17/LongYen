@@ -481,32 +481,33 @@ html {
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #333; /* Màu của mũi tên */
+  border-bottom: 10px solid #333;
   margin: 0 auto;
 }
-/* Điều chỉnh kích thước hình ảnh cho màn hình có chiều rộng nhỏ hơn 768px (thường là máy tính bảng hoặc điện thoại) */
+
 @media screen and (max-width: 768px) {
   .select-invitation {
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 20px;
   }
+
   .gift-image {
     width: 30%;
   }
 
   .small-image {
-    width: 6%; /* Tương ứng 1/5 của 30% */
+    width: 6%;
   }
 
   .small-image-wrapper {
-    left: 120%; /* Điều chỉnh khoảng cách trên mobile */
+    left: 120%;
   }
 }
 
-/* Điều chỉnh kích thước cho màn hình điện thoại nhỏ hơn 480px */
 @media screen and (max-width: 480px) {
   .gift-image {
-    width: 50%; /* Tăng kích thước hơn nữa trên điện thoại nhỏ */
+    width: 50%;
   }
 }
 
@@ -837,7 +838,7 @@ body {
   font-family: "damcuoifont2";
 }
 .banner-title {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-family: var(--title-font);
   /* font-family: "damcuoifont2"; */
   margin-bottom: 40px;
@@ -926,7 +927,7 @@ body {
   position: relative;
   display: grid;
   justify-content: center;
-  padding: 120px 0;
+  padding: 40px 0;
 
   /* background-image:url("./img/gif_tim3.gif"); */
   background-image: url(https://mam17.github.io/LongYen/img/gif_tim3.gif);
@@ -1126,8 +1127,7 @@ body {
   font-size: 24px;
   font-family: var(--title-font);
 }
-.invitation-body {
-}
+
 .invi_time {
   display: flex;
   flex-direction: column;
@@ -1291,6 +1291,7 @@ body {
 /* Largest devices such as desktops (1280px and up) */
 @media only screen and (min-width: 80em) {
 }
+
 .footer-bottom {
   margin-top: 0;
   padding: 8px 0;
