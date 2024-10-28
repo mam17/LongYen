@@ -430,7 +430,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 30px;
+  padding-top: 30px;
 }
 
 .qr-item {
@@ -445,7 +445,7 @@ html {
 
 .qr-text {
   font-family: serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
