@@ -300,7 +300,7 @@
           </div>
 
           <div class="timeline-list">
-            <div
+            <!-- <div
               class="timeline-item aos-init"
               data-aos="fade-up"
               data-aos-duration="1000"
@@ -325,7 +325,7 @@
                   Để từ đó trở thành lần đầu.
                 </p>
               </div>
-            </div>
+            </div> -->
 
             <div
               class="timeline-item aos-init"
@@ -343,7 +343,7 @@
               <div class="timeline-body">
                 <span class="story-date">2021 - 2024</span>
 
-                <span class="title">Khởi đầu</span>
+                <span class="title">Hẹn hò</span>
 
                 <p class="timeline-des uk-margin-remove"></p>
                 <p>
@@ -907,5 +907,24 @@
           console.error("Không thể sao chép", err);
         });
     }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const albumItems = document.querySelectorAll(".album-item");
+    
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          } else {
+            entry.target.classList.remove("show");
+          }
+        });
+      });
+    
+      albumItems.forEach((item) => {
+        observer.observe(item);
+      });
+    });
+    
   </script>
 </html>
